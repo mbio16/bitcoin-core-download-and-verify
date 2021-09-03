@@ -58,3 +58,4 @@ else
 fi
 
 rm -rf "$ASC_FILE" "$GNUPGHOME"
+tar -xzf $FILE
