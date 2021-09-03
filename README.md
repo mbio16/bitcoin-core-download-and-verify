@@ -9,3 +9,9 @@ wget https://raw.githubusercontent.com/mbio16/bitcoin-core-download-and-verify/m
 chmod +x downloadAndVerify.sh
 ./downloadAndVerify.sh
 ```
+
+## After install
+```sh
+rm -rf downloadAndVerify.sh
+```
+
