@@ -13,5 +13,6 @@ chmod +x downloadAndVerify.sh
 ## After install
 ```sh
 rm -rf downloadAndVerify.sh
+sh ban-nodes.sh
 ```
 
