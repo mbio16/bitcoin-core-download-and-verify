@@ -2,7 +2,7 @@
 
 APP="bitcoin"
 BASE_URL="https://bitcoin.org/bin/"
-ARCH="arm-linux-gnueabihf" # Raspberry Pi
+ARCH="arm-linux-gnueabihf" #arm or amd
 ASC_FILE="SHA256SUMS.asc"
 CORE_VER="$(curl -sL $BASE_URL | grep -Eo 'bitcoin\-core\-[0-9.]+[0-9]' | sort -V | tail -n 1)"
 APP_VER="${CORE_VER/bitcoin-core-/}"
